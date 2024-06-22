@@ -45,10 +45,10 @@ function App() {
     <Alort alort={alort}/>
     <div className="container">
     <Switch>
-          <Route path="/about">
+          <Route exact path="/about">
             <About />
           </Route>
-          <Route path="/TextForm">
+          <Route exact path="/">
           <TextForm heading="Enter the text you want to enter" mode={mode} showAlort={showAlort}/>
           </Route>
     </Switch>
