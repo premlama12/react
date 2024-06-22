@@ -3,5 +3,7 @@
         "activityBar.background": "#302F09",
         "titleBar.activeBackground": "#44420C",
         "titleBar.activeForeground": "#FBFAE9"
-    }
+    },
+    "template-string-converter.addBracketsToProps": true,
+    "template-string-converter.autoRemoveTemplateString": true
 }
